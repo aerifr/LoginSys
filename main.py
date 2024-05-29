@@ -74,11 +74,11 @@ class LoginApp:
                             command=self.open_employee_regis)
         button1.pack(pady=20)
 
-        button2 = tk.Button(self.menu_window, text='Payroll', bg='#544c84', fg='white', font=('Arial', 15), bd=5,
+        button2 = tk.Button(self.menu_window, text='Payroll', bg='#544c84', fg='white', font=('Arial', 20), bd=5,
                             command=self.open_payroll)
         button2.pack(pady=20)
 
-        button3 = tk.Button(self.menu_window, text='User Info', bg='#544c84', fg='white', font=('Arial', 15), bd=5,
+        button3 = tk.Button(self.menu_window, text='User Info', bg='#544c84', fg='blue', font=('Arial', 20), bd=5,
                             command=self.open_user_info)
         button3.pack(pady=20)
 
