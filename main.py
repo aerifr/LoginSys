@@ -78,7 +78,7 @@ class LoginApp:
                             command=self.open_payroll)
         button2.pack(pady=20)
 
-        button3 = tk.Button(self.menu_window, text='User Info', bg='#544c84', fg='black', font=('Arial', 15), bd=5,
+        button3 = tk.Button(self.menu_window, text='User Info', bg='#544c84', fg='white', font=('Arial', 15), bd=5,
                             command=self.open_user_info)
         button3.pack(pady=20)
 
