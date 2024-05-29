@@ -149,7 +149,7 @@ class SignUpApp:
             messagebox.showerror("Error", "The username is already taken. Please choose another one.")
             conn.close()
             return
-
+# asjdh
         c.execute("INSERT INTO final (username, password) VALUES (?, ?)", (username, password))
         conn.commit()
         conn.close()
