@@ -14,7 +14,7 @@ def setup_database():
     conn.close()
 
 setup_database()
-
+# Login Class
 class LoginApp:
     def __init__(self, master):
         self.master = master
