@@ -38,11 +38,11 @@ class LoginApp:
         self.entry2 = tk.Entry(self.master, font=('Arial', 15), show='*')
         self.entry2.place(x=600, y=350)
 
-        self.button = tk.Button(self.master, text='Login', bg='#faaf40', font=('Arial', 15), bd=5, fg='white',
+        self.button = tk.Button(self.master, text='Login', bg='#faaf40', font=('Arial', 20), bd=5, fg='white',
                                 command=self.login)
         self.button.place(x=680, y=450)
 
-        self.signup_button = tk.Button(self.master, text='Click to Sign Up', bg='#242363', font=('Arial', 15), bd=3,
+        self.signup_button = tk.Button(self.master, text='Click to Sign Up', bg='#242363', font=('Arial', 20), bd=3,
                                        fg='white', command=self.open_signup)
         self.signup_button.place(x=640, y=500)
 
@@ -78,7 +78,7 @@ class LoginApp:
                             command=self.open_payroll)
         button2.pack(pady=20)
 
-        button3 = tk.Button(self.menu_window, text='User Info', bg='#544c84', fg='white', font=('Arial', 15), bd=5,
+        button3 = tk.Button(self.menu_window, text='User Info', bg='#544c84', fg='black', font=('Arial', 15), bd=5,
                             command=self.open_user_info)
         button3.pack(pady=20)
 
